@@ -1,0 +1,18 @@
+TP:
+ créer une page d'accueil contenant un hader et un footer => Le haeder doit contenir une nav 
+
+
+Accès à la page "ajout, suppression ou modification"
+  |
+  |-> si on est connecté, alors on affiche la page
+  |
+  |-> si on n'est pas connecté, alors redirection vers la page de connexion
+    |
+    |-> on se connecte
+      |
+      |-> si connection réussi, alors redirection vers "ajouter.php"
+
+
+astuce
+    -> enregistrer (en session) l'adresse de la page initialement demandé
+    -> chercher dans $_SESSION la page sur laquelle on se trouve
